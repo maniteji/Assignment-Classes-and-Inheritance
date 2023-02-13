@@ -1,0 +1,30 @@
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\obj\Debug\net6.0\Assignment.csproj.AssemblyReference.cache
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\obj\Debug\net6.0\Assignment.GeneratedMSBuildEditorConfig.editorconfig
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\obj\Debug\net6.0\Assignment.AssemblyInfoInputs.cache
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\obj\Debug\net6.0\Assignment.AssemblyInfo.cs
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\obj\Debug\net6.0\Assignment.csproj.CoreCompileInputs.cache
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\bin\Debug\net6.0\Assignment.exe
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\bin\Debug\net6.0\Assignment.deps.json
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\bin\Debug\net6.0\Assignment.runtimeconfig.json
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\bin\Debug\net6.0\Assignment.dll
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\bin\Debug\net6.0\Assignment.pdb
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\obj\Debug\net6.0\Assignment.dll
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\obj\Debug\net6.0\refint\Assignment.dll
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\obj\Debug\net6.0\Assignment.pdb
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\obj\Debug\net6.0\Assignment.genruntimeconfig.cache
+E:\freelance\ApplianceManagementSystem\Assignment\Assignment\obj\Debug\net6.0\ref\Assignment.dll
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\bin\Debug\net6.0\Assignment.exe
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\bin\Debug\net6.0\Assignment.deps.json
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\bin\Debug\net6.0\Assignment.runtimeconfig.json
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\bin\Debug\net6.0\Assignment.dll
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\bin\Debug\net6.0\Assignment.pdb
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\obj\Debug\net6.0\Assignment.csproj.AssemblyReference.cache
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\obj\Debug\net6.0\Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\obj\Debug\net6.0\Assignment.AssemblyInfoInputs.cache
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\obj\Debug\net6.0\Assignment.AssemblyInfo.cs
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\obj\Debug\net6.0\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\obj\Debug\net6.0\Assignment.dll
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\obj\Debug\net6.0\refint\Assignment.dll
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\obj\Debug\net6.0\Assignment.pdb
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\obj\Debug\net6.0\Assignment.genruntimeconfig.cache
+C:\Users\mrman\OneDrive - Southern Alberta Institute of Technology\Semester 2\OOP\New folder\Assignment\Assignment\obj\Debug\net6.0\ref\Assignment.dll
