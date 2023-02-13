@@ -14,7 +14,7 @@
             RoomType = roomType;
         }
 
-        /// Method to get the string microwave of the refrigerator object.
+        // Method to get the string microwave of the refrigerator object.
         override
         public string ToString()
         {

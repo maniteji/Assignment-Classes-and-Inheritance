@@ -6,14 +6,14 @@
         public string SoundRating { get; set; } // Dishwasher sound quality.
         
         public string Feature { get; set; } // Dishwasher features.
-        /// Constructor of the dishwasher class.
+        // Constructor of the dishwasher class.
         public Dishwasher(string itemNumber, string brand, int quantity, int wattage, string color, decimal price, string soundRating, string feature)
             : base(itemNumber, brand, quantity, wattage, color, price)
         {
             SoundRating = soundRating;
             Feature = feature;
         }
-        /// Method to get the string dishwasher of the refrigerator object.
+        // Method to get the string dishwasher of the refrigerator object.
         override
         public string ToString()
         {

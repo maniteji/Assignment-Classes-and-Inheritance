@@ -16,7 +16,7 @@
 
         public decimal Price { get; set; }
 
-        /// Constructor of the Appliance class.
+        // Constructor of the Appliance class.
         public Appliance(string itemNumber, string brand, int quantity, int wattage, string color, decimal price)
         {
             ItemNumber = itemNumber;

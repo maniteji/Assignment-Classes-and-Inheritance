@@ -10,7 +10,7 @@ namespace Assignment
 
         public int Width { get; set; }  // Width of the refrigerator.
 
-        /// Constructor of the refrigerator class.
+        // Constructor of the refrigerator class.
 
         public Refrigerator(string itemNumber, string brand, int quantity, int wattage, string color, decimal price, int numberOfDoors, int height, int width)
             : base(itemNumber, brand, quantity, wattage, color, price)
@@ -20,7 +20,7 @@ namespace Assignment
             Width = width;
         }
 
-        /// Method to get the string representation of the refrigerator object.
+        // Method to get the string representation of the refrigerator object.
         override
         public string ToString()
         {

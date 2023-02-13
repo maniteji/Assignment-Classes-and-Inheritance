@@ -1,4 +1,5 @@
 ﻿using System;
+using Assignment;
 
 List<Appliance> appliances;     // All the appliance are stored inside this list.
 
