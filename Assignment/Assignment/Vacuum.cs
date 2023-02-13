@@ -2,26 +2,12 @@
 {
     public class Vacuum : Appliance
     {
-        /// <summary>
-        /// Grade of the vacuum.
-        /// </summary>
-        public string Grade { get; set; }
-        /// <summary>
-        /// The size battery in voltage.
-        /// </summary>
-        public int BatteryVoltage { get; set; }
+   
+        public string Grade { get; set; }   /// Grade of the vacuum
+        
+        public int BatteryVoltage { get; set; }    // The size battery in voltage.
 
-        /// <summary>
         /// Constructor of the vacuum class.
-        /// </summary>
-        /// <param name="itemNumber">Unique vacuum number</param>
-        /// <param name="brand">vacuum brand</param>
-        /// <param name="quantity">vacuum stock</param>
-        /// <param name="wattage">vacuum electric consumption</param>
-        /// <param name="color">vacuum color</param>
-        /// <param name="price">vacuum price</param>
-        /// <param name="grade"></param>
-        /// <param name="batteryVoltage"></param>
         public Vacuum(string itemNumber, string brand, int quantity, int wattage, string color, decimal price, string grade, int batteryVoltage)
             : base(itemNumber, brand, quantity, wattage, color, price)
         {
@@ -29,10 +15,7 @@
             BatteryVoltage = batteryVoltage;
         }
 
-        /// <summary>
         /// Method to get the string representation of the vacuum object.
-        /// </summary>
-        /// <returns>formatted info of the vacuum properties.</returns>
         override
         public string ToString()
         {

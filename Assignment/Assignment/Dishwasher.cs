@@ -2,37 +2,18 @@
 {
     public class Dishwasher : Appliance
     {
-        /// <summary>
-        /// Dishwasher sound quality.
-        /// </summary>
-        public string SoundRating { get; set; }
-        /// <summary>
-        /// Dishwasher features.
-        /// </summary>
-        public string Feature { get; set; }
 
-        /// <summary>
+        public string SoundRating { get; set; } // Dishwasher sound quality.
+        
+        public string Feature { get; set; } // Dishwasher features.
         /// Constructor of the dishwasher class.
-        /// </summary>
-        /// <param name="itemNumber">Unique dishwasher number</param>
-        /// <param name="brand">dishwasher brand</param>
-        /// <param name="quantity">dishwasher stock</param>
-        /// <param name="wattage">dishwasher electric consumption</param>
-        /// <param name="color">dishwasher color</param>
-        /// <param name="price">dishwasher price</param>
-        /// <param name="soundRating">dishwasher sound quality</param>
-        /// <param name="feature">dishwasher features</param>
         public Dishwasher(string itemNumber, string brand, int quantity, int wattage, string color, decimal price, string soundRating, string feature)
             : base(itemNumber, brand, quantity, wattage, color, price)
         {
             SoundRating = soundRating;
             Feature = feature;
         }
-
-        /// <summary>
         /// Method to get the string dishwasher of the refrigerator object.
-        /// </summary>
-        /// <returns>formatted info of the dishwasher properties.</returns>
         override
         public string ToString()
         {

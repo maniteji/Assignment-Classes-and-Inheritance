@@ -1,19 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
 
-using Assignment;
-
-/// <summary>
-/// All the appliance are stored inside this list.
-/// </summary>
-List<Appliance> appliances;
+List<Appliance> appliances;     // All the appliance are stored inside this list.
 
 // Loads the appliances from the file into the list.
 appliances = LoadAppliances("./../../../Data/appliances.txt");
 
 
-/// <summary>
-/// Method to take the appliance number from the user and check it out if found.
-/// </summary>
+// Method to take the appliance number from the user and check it out if found
 void PurchaseAppliance()
 {
     Console.WriteLine("Enter item number of an Appliance: ");
@@ -31,9 +24,7 @@ void PurchaseAppliance()
     Console.WriteLine("No appliances found with that item number.\n");
 }
 
-/// <summary>
-/// Method to search all the appliances of a given brand.
-/// </summary>
+// Method to search all the appliances of a given brand
 void BrandSearch()
 {
     Console.WriteLine("Enter brand to search for: ");
@@ -49,7 +40,6 @@ void BrandSearch()
     Console.WriteLine("Matching Appliances:");
     foreach (Appliance appliance in appliances)
     {
-        // case insesitive matching with all the appliances brands.
         if (appliance.Brand.ToUpper().Equals(brand.ToUpper()))
         {
             Console.WriteLine(appliance.ToString());
@@ -58,9 +48,7 @@ void BrandSearch()
     }
 }
 
-/// <summary>
-/// Load the appliance on the basis of type and their unique properties taken by user.
-/// </summary>
+// Load the appliance on the basis of type and their unique properties taken by user.
 void TypeSearch()
 {
     Console.WriteLine("Appliance Types");
@@ -175,9 +163,7 @@ void TypeSearch()
     }
 }
 
-/// <summary>
-/// Method to load a number of random appliances taken from the user.
-/// </summary>
+// Method to load a number of random appliances taken from the user.
 void RandomAppliances()
 {
     Console.WriteLine("Enter number of appliances: ");
@@ -187,8 +173,6 @@ void RandomAppliances()
         Random rnd = new Random();
         List<Appliance> randomAppliances = new List<Appliance>();
 
-        // move the given number of appliances from the Appliances
-        // list to randomAppliances randomly so there is no repetition.
         for (int i = 0; i < appliancesNumber; i++)
         {
             if (appliances.Count < 1)
@@ -200,7 +184,6 @@ void RandomAppliances()
             appliances.Remove(appliances[randomIndex]);
         }
 
-        // Now add the appliaces in the from randomAppliances back to Appliances list.
         foreach (Appliance appliance in randomAppliances)
         {
             Console.WriteLine(appliance.ToString());
@@ -213,20 +196,14 @@ void RandomAppliances()
     }
 }
 
-/// <summary>
-/// Method to store the appliances inside the Appliances list to a file of given path.
-/// </summary>
+/// Method to store the appliances inside the Appliances list to a file of given path
 void SaveData()
 {
     SaveAppliances("./../../../Data/appliances.txt", appliances);
 }
 
 
-/// <summary>
-/// Method to load appliances data from a file.
-/// </summary>
-/// <param name="filePath">Path to the file</param>
-/// <returns>List of Appliances loaded or an error message.</returns>
+/// Method to load appliances data from a 
 List<Appliance> LoadAppliances(string filePath)
 {
     List<Appliance> appliances = new List<Appliance>();
@@ -276,11 +253,7 @@ List<Appliance> LoadAppliances(string filePath)
     return appliances;
 }
 
-/// <summary>
-/// Method to save the appliances to a file.
-/// </summary>
-/// <param name="filePath">Path to file</param>
-/// <param name="appliances">Appliance to be saved</param>
+/// Method to save the appliances to a file
 void SaveAppliances(string filePath, List<Appliance> appliances)
 {
     using (StreamWriter writer = new StreamWriter(filePath))
@@ -372,6 +345,4 @@ while (option != "5")
 
     Console.WriteLine("\n");
 }
-
-// Farewell message.
 Console.WriteLine("Thank you for using the system!");
